@@ -3,3 +3,42 @@
  padding: 0;
  box-sizing: border-box;
 }
+
+header {
+ height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.container-logo {
+ display: flex;
+ align-items: center;
+ height: 100px;
+ line-height: 100px;
+}
+
+.logo {
+ margin-right: 10px;
+}
+
+.container-button {
+ display: flex;
+ align-items: center;
+}
+
+#select-level {
+ font-size: 20px;
+ margin: 0 10px;
+ width: 150px;
+}
+
+#btn {
+ align-items: center;
+ font-size: 12px;
+ width: 100px;
+ height: 20px;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+ background-color: white;
+}
