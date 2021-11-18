@@ -27,18 +27,47 @@ header {
  align-items: center;
 }
 
-#select-level {
+#level {
  font-size: 20px;
  margin: 0 10px;
  width: 150px;
 }
 
-#btn {
+#play {
  align-items: center;
- font-size: 12px;
+ font-size: 14px;
  width: 100px;
  height: 20px;
  border: 1px solid lightgrey;
  border-radius: 5px;
  background-color: white;
+}
+
+main {
+ background-color: lightblue;
+ padding: 20px;
+}
+
+.container-square {
+ width: 500px;
+ height: 500px;
+ margin: 0 auto;
+ border: 2px solid white;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.square {
+ /* width: calc(100% / 10);
+ height: calc(100% / 10); */
+ border: 2px solid white;
+ cursor: pointer;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.selected {
+ background-color: cyan;
 }
